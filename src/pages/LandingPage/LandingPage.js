@@ -4,6 +4,7 @@ import SocialIcons from '@components/SocialIcons';
 import Nav from '@components/Nav';
 import ScrollToNext from '@components/ScrollToNext';
 import BrowserNotes from '@components/BrowserNotes';
+import Info from '../../info.json'
 
 import './style.scss';
 
@@ -15,10 +16,16 @@ const LandingPage = (props, context) => {
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
         <div className="intro-wrapper">
-          <div className="intro-name">Hello, I'm Dinesh!</div>
-          <div className="tagline">
-            Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja
-          </div>
+          {Info.name &&
+            <div className="intro-name">Hello, I'm {Info.name}!</div>
+          }
+          {Info.tags &&
+            <div className="tagline">
+              {Info.tags.map(tag => {
+                return tag + " | "
+              })}
+            </div>
+          }
           <SocialIcons />
         </div>
       </main>
