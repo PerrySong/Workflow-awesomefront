@@ -9,7 +9,6 @@ import './style.scss';
 
 const LandingPage = (props, context) => {
   const { theme: { bgPrimary, colorPrimary } } = context;
-
   return (
     <div style={{ backgroundColor: bgPrimary }} className="landing-page">
       <Nav />
