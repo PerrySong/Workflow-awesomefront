@@ -6,17 +6,84 @@
     "linkedin" : "www.linkedin.com/in/perrycrazycoding",
     "projects" : [
         {   
+            "name" : "Crypto Portfolio",
+            "desc" : "A Java-based web application with metadata fetched from the Last.fm APIs and processed using the multithreaded approach",
+            "techs" : [
+                "fab fa-js",
+                "fab fa-react",
+                "fab fa-node",
+                "fab fa-aws"
+            ],
+            "links" : [
+                    {
+                        "name" : "Github",
+                        "href" : "https://github.com/PerrySong/CryptoPortfolio-Nodejs"
+                    }
+                ]
+        },
+        {   
             "name" : "CandyFM",
             "desc" : "This is a Web app",
             "techs" : [
                 "fab fa-java",
+                "fab fa-html5",
+                "fab fa-css3-alt",
+                "fab fa-lastfm-square"
+            ],
+            "links" : [
+                    {
+                        "name" : "Github",
+                        "href" : "https://github.com/PerrySong/CandyFm"
+                    }
+                ]
+        },
+        {   
+            "name" : "AleperyChat",
+            "desc" : "Online video chat Android app using Opentok and using Affectiva detect and evaluate users’ facial expression",
+            "techs" : [
+                "fab fa-java",
+                "fab fa-android"
+            ],
+            "links" : [
+                    {
+                        "name" : "Github",
+                        "href" : "https://github.com/PerrySong/AleperyChat"
+                    }
+                ]
+        },
+        {   
+            "name" : "Real-Time News Web App",
+            "desc" : "A real-time news scraping data pipeline which has news monitoring, scraping and deduping servic",
+            "techs" : [
+                "fab fa-python",
+                "fab fa-node",
                 "fab fa-html5",
                 "fab fa-css3-alt"
             ],
             "links" : [
                     {
                         "name" : "Github",
-                        "href" : "https://github.com/PerrySong/CandyFm"
+                        "href" : "https://github.com/PerrySong/Top-crypto-news-api"
+                    }
+                ]
+        },
+        {   
+            "name" : "RESTful Campground Web App",
+            "desc" : "A social media web application for users to share campgrounds",
+            "techs" : [
+                "fab fa-js",
+                "fab fa-node",
+                "fab fa-html5",
+                "fab fa-css3-alt"
+            ],
+            "links" : [
+                    {
+                        "name" : "Github",
+                        "href" : "https://github.com/PerrySong/Top-crypto-news-api"
+                    },
+                    {
+                        "name" : "Website",
+                        "href" : "https://hidden-headland-22449.herokuapp.com/"
                     }
                 ]
         }
