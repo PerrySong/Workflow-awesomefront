@@ -1,0 +1,24 @@
+{
+    "name" : "Perry",
+    "about" : ["I like backend and learn all the interesting tech.", "I stay close to the community", "My dream is to code crazily for days without any concern and anxious."],
+    "github" : "https://github.com/PerrySong",
+    "linkedin" : "www.linkedin.com/in/perrycrazycoding",
+    "projects" : [
+        {   
+            "name" : "CandyFM",
+            "desc" : "This is a Web app",
+            "techs" : [
+                "fab fa-java",
+                "fab fa-html5",
+                "fab fa-css3-alt"
+            ],
+            "links" : [
+                    {
+                        "name" : "Github",
+                        "href" : "https://github.com/PerrySong/CandyFm"
+                    }
+                ]
+        }
+    ]
+
+}
